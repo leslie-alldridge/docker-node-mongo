@@ -18,3 +18,6 @@ docker container run -d -p 8080:80 -v C:\Users\Beast\Desktop\docker-node-mongo-m
 
 Upload
 docker image build -t la102/nginx-website .
+
+Heroku
+heroku container:push web --app dockerleslie
